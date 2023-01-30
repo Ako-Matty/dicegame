@@ -1,0 +1,136 @@
+body {
+
+    /* display: flex;
+    justify-content: center; */
+    background-image: url(./images/diceBackground.jpg);
+}
+
+
+
+#Titles {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+color: aqua;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* text-align: center; */
+
+
+}
+
+
+
+
+
+.diceimages {
+
+   
+    /* background: url(./images/dice1.png); */
+    display: flex;
+
+    /* justify-content: center; */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+#scoreline {
+
+    display: flex;
+    flex-direction: column;
+    padding-right: 37%;
+    margin: 10px;
+    color: aqua;
+    
+    
+    }
+    
+
+
+#imageShower{
+
+    margin-left: 40px;
+    background: url(./images/dicehome.jpg);
+    border-radius: 5%;
+
+}
+
+
+
+
+
+.rolls {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.rolling {
+
+
+    border-radius: 5px;
+    background-color: brown;
+    height: 100px;
+    width: 150px;
+    margin: 2%;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-style: italic;
+    cursor: pointer;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#displayMessage {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+}
+
+
+
+
+
+.resetting {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.restart {
+
+    
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
